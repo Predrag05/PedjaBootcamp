@@ -1,0 +1,100 @@
+body {
+    
+    font-style: Arial Helvetica sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: silver;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(coolpic.jpg);
+    
+}
+h1 {
+    color: white;
+    font-size: 59px;
+    background-color: #222;
+    
+}
+h1 > a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+   display: inline-block;
+   text-align: right;
+   padding-right: 20px;
+}
+li > a {
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 900px;
+    border: solid gray 3px;
+    margin-left: 212px;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: white;
+}
+
+.grid-container {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "One One Two Two" "One One Two Two" "Three Three Four Four" "Three Three Four Four";
+  }
+  
+  .One { grid-area: One; 
+    color: white;
+        width: 41%;
+        height: 35vh;
+        margin: 20vh;
+        
+        
+        }
+  
+  .Two { grid-area: Two; 
+    width: 41%;
+    height: 35vh;
+    margin: 20vh;
+    
+    box-sizing: border-box;
+}
+  
+  .Three { grid-area: Three; 
+    width: 41%;
+    height: 35vh;
+    margin: 20vh;
+    
+    
+}
+  
+  .Four { grid-area: Four; 
+    width: 41%;
+    height: 35vh;
+    margin: 20vh;
+    
+    
+}
+
+div > a{
+    color: white;
+    font-size: 1.4em;
+}
+
+a {
+    color: white;
+}
+form{
+    color: white;
+    text-align: left;
+}
