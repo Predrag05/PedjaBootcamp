@@ -20,7 +20,7 @@ for(let i = pocetak; i <= kraj; i++){
         console.log('Fizz')
         continue
         }
-    
+        
         
     if(i % 5 == 0){
         console.log('Buzz')
