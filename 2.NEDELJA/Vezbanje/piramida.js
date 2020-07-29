@@ -1,6 +1,6 @@
 let red = ''
 let H = 5
-let W = 9
+let W = 5
 let k = W - 1
 for(let i = 0; i < H; i++){
 
