@@ -4,11 +4,11 @@
 
 function lifeSupply(numPerMonth,age){
     let godisnjePica = 12 * numPerMonth
-    let ukupnoDo100 = 0
+    let ukupnoDo100te = 0
     for(let i = age; i < 100; i++){
-        ukupnoDo100 += godisnjePica
+        ukupnoDo100te += godisnjePica
     }
-    return ukupnoDo100
+    return ukupnoDo100te
 }
 
 

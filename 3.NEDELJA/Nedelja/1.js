@@ -15,3 +15,28 @@ for(let i = 0; i < niz.length; i++){
 // Druga varijanta sa .forEach
 
 niz.forEach(printDivisibleBy5)
+
+
+// Jos neka proba da dodaje u drugi niz
+
+
+
+
+function isDivisibleBy5(num){
+    if(num % 5 === 0){
+    return num
+    }
+}
+
+let noviNiz = []
+
+for(let i = 0; i < niz.length; i++){
+    if(isDivisibleBy5(niz[i])){
+        noviNiz.push(niz[i])
+    }
+}
+console.log(noviNiz)
+
+
+
+
