@@ -11,3 +11,7 @@ function printDivisibleBy5(num){
 for(let i = 0; i < niz.length; i++){
     printDivisibleBy5(niz[i])
 }
+
+// Druga varijanta sa .forEach
+
+niz.forEach(printDivisibleBy5)
