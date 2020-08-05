@@ -20,8 +20,6 @@ niz.forEach(printDivisibleBy5)
 // Jos neka proba da dodaje u drugi niz
 
 
-
-
 function isDivisibleBy5(num){
     if(num % 5 === 0){
     return num
