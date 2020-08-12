@@ -50,6 +50,8 @@ return nizSvihSposobnosti
 }
 console.log(sveSposobnosti(nizPokemona))
 
+
+
 // Сортирати покемоне по брзини, растуће.
 
 
